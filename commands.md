@@ -12,6 +12,8 @@ git reset . //unstages the all the files that has been staged to commit
 git reset README.md //unstages the specific file that has been staged to commit
 
 git status //returns the commit status of the files in the repo
+
+git commit -m "commit message line 1" //commit the files that has been changed
 <!---->
 
 <!--FILE-->

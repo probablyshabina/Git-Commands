@@ -14,6 +14,16 @@ git reset README.md //unstages the specific file that has been staged to commit
 git status //returns the commit status of the files in the repo
 
 git commit -m "commit message line 1" //commit the files that has been changed
+
+git remote //returns the remote repositories that have been linked to the current local project
+git remote add name-of-repo repository-url //links project with remote repository
+git remote -v //return the links
+git remote show origin
+
+git push name-of-repo branch-of-repo -u //sync with remote repo
+ex: git push origin master -u
+
+
 <!---->
 
 <!--FILE-->

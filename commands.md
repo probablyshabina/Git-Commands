@@ -21,9 +21,40 @@ git remote -v //return the links
 git remote show origin
 
 git push name-of-repo branch-of-repo -u //sync with remote repo
-ex: git push origin master -u
+ex: git push origin main -u
 
+git fetch //fetches the changes
+git merge repo-name/branch-name //keep the local codebase up to date with the branch mentioned
+ex: git merge origin/main
 
+git pull origin master //fetches and update local project 
+OR
+git pull //if -u was added to the command when linking remore repository
+
+git clone repo-url optional-repo-local-name //creates a copy of a repo locally
+ex: git clone https://github.com/shabinaliyaudeen/Git-Commands.git git-commands
+
+git log //retuens the commit history
+:q to exit
+
+git branch //returns all the branches of repo
+git branch -M new-name //rename the current branch
+git branch new-branch-name //create new branch
+git branch -d //delete if its not merged
+git branch -D //delete regardless
+
+git checkout branch-name //switches to specific branch
+git checkout -b new-branch-name //creates new branch and switches to it
+git checkout - //switches to previous branch
+
+git reset log-number //
+git revert log-number //
+git commit --amend -m "rename-text" //modifies the last commit msg
+git commit --amend --no-edit //withput changing the commit msg adding files to last commit
+
+git stash 
+git rebash
+git squash
 <!---->
 
 <!--FILE-->
